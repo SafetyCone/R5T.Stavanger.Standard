@@ -4,4 +4,8 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <NoWarn>1701;1702;1591;1573</NoWarn>
   </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\R5T.Stavanger.Default\source\R5T.Stavanger.Default\R5T.Stavanger.Default.csproj" />
+    <ProjectReference Include="..\..\..\R5T.Stavanger.NetStandard\source\R5T.Stavanger.NetStandard\R5T.Stavanger.NetStandard.csproj" />
+  </ItemGroup>
 </Project>
